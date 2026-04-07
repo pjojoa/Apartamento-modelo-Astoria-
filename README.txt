@@ -8,16 +8,19 @@ Marzipano Tool, available at http://www.marzipano.net.
 Usage
 -----
 
-The main application file is `app-files/index.html`. Many browsers have issues
+The main application file is `docs/app-files/index.html`. Many browsers have issues
 when using `file://` URLs. Therefore, to properly view the application it is
 necessary to use a web server.
+
+GitHub Pages: configure the publishing source as branch `main`, folder `/docs`
+(the site entry is `docs/index.html`, which opens the tour under `docs/app-files/`).
 
 
 Deployment
 ----------
 
-To deploy the application, upload the contents of the `app-files` folder into
-a hosting service.
+To deploy the application, upload the contents of the `docs/app-files` folder into
+a hosting service (or publish the whole `docs` folder if you use the included root redirect).
 
 
 Customization
